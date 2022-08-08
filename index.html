@@ -10,18 +10,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="dark:bg-slate-900">
   <header class="relative">
     <div class="container">
       <nav class="flex justify-between items-center pt-[26px]">
         <a href="#"><img src="./img/logo.png" alt="logo"></a>
 
         <ul class="flex gap-12 md:hidden">
-          <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">About</a></li>
-          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base">Services</a></li>
-          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base">Case Studio</a></li>
-          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base">Careers</a></li>
-          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base">Blog</a></li>
+          <li><a href="#" class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base dark:text-white">About</a></li>
+          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base  dark:text-white">Services</a></li>
+          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base  dark:text-white">Case Studio</a></li>
+          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base  dark:text-white">Careers</a></li>
+          <li><a href="#" class="font-medium text-xl text-lightblack  hover:text-darkred transition-colors lg:text-base  dark:text-white">Blog</a></li>
         </ul>
 
         <ul id="menu" class="hidden absolute left-6 right-6 top-24 bg-lightred flex-col items-center">
@@ -100,6 +100,8 @@
       </div>
     </div>
   </footer>
+
+  <button id="mode" class="btn fixed right-2 bottom-2">mode</button>
 
   <script src="./js/main.js"></script>
 </body>
